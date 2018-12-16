@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dlince.library.organizations.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+        android:id="@+id/btnAuthor"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="Author"
+        android:background="#ff3399"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/btnArticle"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:text="Article"
+            android:background="#ff3399"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/btnType"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:text="Type"
+            android:background="#ff3399"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginBottom="5dp"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/Au"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <Button
+            android:id="@+id/btnAddUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Authors"
+            android:background="#0057e7"
+            android:textColor="#ffffff"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:id="@+id/btnGetUsersList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fetch Authors"
+            android:background="#ffa700"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="5dp"
+            />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Ar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <Button
+            android:id="@+id/btnAddArticle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Articles"
+            android:background="#0057e7"
+            android:textColor="#ffffff"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:id="@+id/btnGetArticlesList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fetch Articles"
+            android:background="#ffa700"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="5dp"
+            />
+
+        <ListView
+            android:id="@+id/listViewAr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Ty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <Button
+            android:id="@+id/btnAddType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Types"
+            android:background="#0057e7"
+            android:textColor="#ffffff"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:id="@+id/btnGetTypesList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fetch Types"
+            android:background="#ffa700"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="5dp"
+            />
+
+        <ListView
+            android:id="@+id/listViewTy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

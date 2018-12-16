@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dlince.library.organizations.AuthorActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/txtUId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Author code"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <EditText
+                android:id="@+id/edtUId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                />
+
+            <TextView
+                android:id="@+id/txtUUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Author name"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <EditText
+                android:id="@+id/edtUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Author Mail"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/txtGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Author Gender"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <EditText
+                android:id="@+id/edtGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/txtBirth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Author Birth"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <EditText
+                android:id="@+id/edtBirth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/txtAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Author Address"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edtAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/txtPweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Author Site"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <EditText
+                android:id="@+id/edtPweb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <CheckBox
+                android:id="@+id/checkbox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Actived?"
+                android:textColor="#0057e7"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="375dp" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:background="#008744"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnDel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete Author"
+                android:background="#d62d20"
+                android:textColor="#ffffff"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

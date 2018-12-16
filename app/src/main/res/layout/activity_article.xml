@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dlince.library.organizations.ArticleActivity"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/txtArId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Article code"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <EditText
+                android:id="@+id/edtArId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                />
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Article Title"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <EditText
+                android:id="@+id/edtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/txtPages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artcile Pages"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <EditText
+                android:id="@+id/edtPages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/txtYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Article Year"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <EditText
+                android:id="@+id/edtYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/txtType_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Article Type_id"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <EditText
+                android:id="@+id/edtType_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/txtEditorial_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Article Editorial_id"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <EditText
+                android:id="@+id/edtEditorial_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <CheckBox
+                android:id="@+id/checkbox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Actived?"
+                android:textColor="#0057e7"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="375dp" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:background="#008744"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnDel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete Article"
+                android:background="#d62d20"
+                android:textColor="#ffffff"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
